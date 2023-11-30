@@ -6,7 +6,7 @@ import tempfile
 
 def main():
     st.set_page_config(page_title="Project", page_icon="📈")
-    model_path = 'models/baru.pt'
+    model_path = 'models/best-1.pt'
 
     st.markdown("# Demonstrasi Projek Guardian Eye")
 
