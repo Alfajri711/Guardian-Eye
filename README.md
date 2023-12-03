@@ -152,7 +152,9 @@ Show some implementations (demos) of this model. Show **at least 10 images** of 
 Provide a screenshot of your Business Model Canvas (BMC). Give some explanations, if necessary.
 
 ### Short Video
-<video src="assets/VideoTheExplorers.mp4" width="640" height="480" controls>
+<video width="320" height="240" controls>
+  <source src="assets/VideoTheExplorers.mp4" type="video/mp4">
+</video>
 
 ## References
 Provide all links that support this final project, i.e., papers, GitHub repositories, websites, etc.
@@ -180,11 +182,3 @@ For academic and non-commercial use only.
 ## Acknowledgement
 This project entitled <b>"YOUR PROJECT TITLE HERE"</b> is supported and funded by Startup Campus Indonesia and Indonesian Ministry of Education and Culture through the "**Kampus Merdeka: Magang dan Studi Independen Bersertifikasi (MSIB)**" program.
 
-
-# Guardian Eyes: Automatic Detection of Dangerous Objects in Public Spaces
-
-<b>Guardian Eyes: Automatic Detection of Dangerous Objects in Public Spaces</b> merupakan projek yang dibuat oleh tim <b>The Explorers</b> dalam rangka menyelesaikan tugas akhir dari studi independen kami di Startup Campus. Projek ini terinspirasi dari maraknya tindak kejahatan menggunakan senjata tajam bahkan senjata api, maka kami mendapatkan ide membuat object detection untuk mendeteksi benda-benda berbahaya tersebut.
-
-<video width="320" height="240" controls>
-  <source src="assets/VideoTheExplorers.mp4" type="video/mp4">
-</video>
