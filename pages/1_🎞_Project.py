@@ -47,7 +47,7 @@ def main():
         if source_img:
             # Process the image and get detection results
             res_image = model_image.predict(uploaded_image, conf=confidence)
-            boxes_image = res_image[0].boxes
+            boxes_images = res_image[0].boxes
             res_plotted_image = res_image[0].plot()[:, :, ::-1]
             with col2:
                 st.image(res_plotted_image,
@@ -56,7 +56,7 @@ def main():
                         )
                 try:
                     with st.expander("Detection Results for Image"):
-                        for box_image in boxes_image:
+                        for box_image in boxes_images:
                             st.write(box_image.xywh)
                 except Exception as ex:
                     st.write("No image is uploaded yet!")
