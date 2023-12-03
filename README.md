@@ -129,6 +129,8 @@ Feel free to adjust the columns in the table below.
 | vit_l_32 | 2500 | 0.00001 | 128 | SGD | 0.041 | 90.19% | 87.55% | ... |
 | ... | ... | ... | ... | ... | ... | ... | ... | ... | 
 
+![confusion_matrix](https://github.com/nandaeka02/the-explorers/assets/111878995/128ba3d6-b5f8-47dc-982c-f7f16b0cd660)
+
 #### 2. Ablation Study
 Any improvements or modifications of your base model, should be summarized in this table. Feel free to adjust the columns in the table below.
 
