@@ -1,4 +1,4 @@
-# Guardian Eyes: Automatic Detection of Dangerous Objects in Public Spaces
+![PR_curve](https://github.com/nandaeka02/the-explorers/assets/111878995/7e719c3d-5837-4e02-8ec9-a2f9735c1b3c)# Guardian Eyes: Automatic Detection of Dangerous Objects in Public Spaces
 
 ## Project Description
 <b>Guardian Eyes: Automatic Detection of Dangerous Objects in Public Spaces</b> is a project created by <b>The Explorers</b> team as part of our final assignment for our independent study at Startup Campus. This project was inspired by the increasing incidents of crimes involving sharp weapons and even firearms. Consequently, we conceived the idea of developing an object detection system to identify and alert authorities about such hazardous objects.
@@ -116,7 +116,8 @@ Describe all results found in your final project experiments, including hyperpar
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | YOLOv8 | 100 | 0.0003 | 16 | Adam | 0.093 | 93.2% | 91.8% | 94.5% | 76% |
 
-![confusion_matrix (2)](https://github.com/nandaeka02/the-explorers/assets/111878995/cb7c6b95-6187-429c-a89f-79f5c2734042)
+Confusion Matrix Val:
+![confusion_matrix (1)](https://github.com/nandaeka02/the-explorers/assets/111878995/a77961d4-c2b8-4b59-927c-dc3a160cf7b7)
 
 #### 2. Ablation Study
 Any improvements or modifications of your base model, should be summarized in this table. Feel free to adjust the columns in the table below.
@@ -128,7 +129,34 @@ Any improvements or modifications of your base model, should be summarized in th
 | ... | ... | ... | ... | ... | ... | ... |
 
 #### 3. Training/Validation Curve
-Insert an image regarding your training and evaluation performances (especially their losses). The aim is to assess whether your model is fit, overfit, or underfit.
+Train Curve:
+- Precision Curve:
+![P_curve](https://github.com/nandaeka02/the-explorers/assets/111878995/06e735df-ba13-4b76-a072-3570e414bf2c)
+
+- Recall Curve:
+![R_curve](https://github.com/nandaeka02/the-explorers/assets/111878995/aad2d6a6-263e-4b90-a423-f63a173aff11)
+
+- PR Curve:
+![PR_curve](https://github.com/nandaeka02/the-explorers/assets/111878995/a2bd23b9-6c74-42e5-aa21-c37b5c9b3536)
+
+- F1 Curve:
+![F1_curve](https://github.com/nandaeka02/the-explorers/assets/111878995/16e757d5-a3b0-4866-bb7b-99c00eed9f15)
+
+Val Curve:
+- Precision Curve:
+![P_curve (1)](https://github.com/nandaeka02/the-explorers/assets/111878995/1a694cd8-1e39-4a11-b677-91de4cd3b1a8)
+
+- Recall Curve:
+![R_curve (1)](https://github.com/nandaeka02/the-explorers/assets/111878995/ee08fe75-e424-421c-9353-10b1e29ad8fa)
+
+- PR Curve:
+![PR_curve (1)](https://github.com/nandaeka02/the-explorers/assets/111878995/2940c5f2-53ba-4dfa-969a-7b7d564414cf)
+
+- F1 Curve:
+![F1_curve (1)](https://github.com/nandaeka02/the-explorers/assets/111878995/f9b43e62-f54d-4556-8d99-08d3275235d8)
+
+Train & Val Loss:
+![results](https://github.com/nandaeka02/the-explorers/assets/111878995/ebb3904b-4a4a-4fc2-bc1a-e459875f8148)
  
 ### Testing
 - Link: https://drive.google.com/drive/folders/1yeLHSicb5bEEm1r6uWRfUQXl_Zr09Bdq?usp=drive_link
