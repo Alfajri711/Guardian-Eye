@@ -1,4 +1,4 @@
-## Project Description
+![confusion_matrix](https://github.com/nandaeka02/the-explorers/assets/111878995/0a85889a-3003-4c83-8172-68c5390030d5)## Project Description
 <b>Guardian Eyes: Automatic Detection of Dangerous Objects in Public Spaces</b> is a project created by <b>The Explorers</b> team as part of our final assignment for our independent study at Startup Campus. This project was inspired by the increasing incidents of crimes involving sharp weapons and even firearms. Consequently, we conceived the idea of developing an object detection system to identify and alert authorities about such hazardous objects.
 
 ## Contributor
@@ -112,10 +112,10 @@ Describe all results found in your final project experiments, including hyperpar
 #### 1. Metrics
 | model | epoch | learning_rate | batch_size | optimizer | val_precision | val_recall | val_mAP50 | val_mAP50-95 |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| YOLOv8 | 100 | 0.0003 | 16 | Adam | 0.093 | 93.2% | 91.8% | 94.5% | 76% |
+| YOLOv8 | 100 | 0.0003 | 16 | Adam | 0.093 | 95.2% | 92.9% | 95.8% | 77% |
 
-Confusion Matrix Val:
-![confusion_matrix (1)](https://github.com/nandaeka02/the-explorers/assets/111878995/a77961d4-c2b8-4b59-927c-dc3a160cf7b7)
+Confusion Matrix:
+![confusion_matrix](https://github.com/nandaeka02/the-explorers/assets/111878995/5c08ade4-edb1-47fe-b53e-ff45b06fb71e)
 
 #### 2. Ablation Study
 Any improvements or modifications of your base model, should be summarized in this table. Feel free to adjust the columns in the table below.
@@ -129,34 +129,64 @@ Any improvements or modifications of your base model, should be summarized in th
 #### 3. Training/Validation Curve
 Train Curve:
 - Precision Curve:
-![P_curve](https://github.com/nandaeka02/the-explorers/assets/111878995/06e735df-ba13-4b76-a072-3570e414bf2c)
+![P_curve](https://github.com/nandaeka02/the-explorers/assets/111878995/be0b1e6f-8613-4099-8f2f-ea3c5d8ea500)
 
 - Recall Curve:
-![R_curve](https://github.com/nandaeka02/the-explorers/assets/111878995/aad2d6a6-263e-4b90-a423-f63a173aff11)
+![R_curve](https://github.com/nandaeka02/the-explorers/assets/111878995/93b458f0-7383-4803-aa09-532696392639)
 
 - PR Curve:
-![PR_curve](https://github.com/nandaeka02/the-explorers/assets/111878995/a2bd23b9-6c74-42e5-aa21-c37b5c9b3536)
+![PR_curve](https://github.com/nandaeka02/the-explorers/assets/111878995/de7dfd6d-a8fa-460a-85bb-9cec04a8d0a1)
 
 - F1 Curve:
-![F1_curve](https://github.com/nandaeka02/the-explorers/assets/111878995/16e757d5-a3b0-4866-bb7b-99c00eed9f15)
+![F1_curve](https://github.com/nandaeka02/the-explorers/assets/111878995/4924bb65-d466-47ea-a480-fd503b126471)
 
 Val Curve:
 - Precision Curve:
-![P_curve (1)](https://github.com/nandaeka02/the-explorers/assets/111878995/1a694cd8-1e39-4a11-b677-91de4cd3b1a8)
+![P_curve (1)](https://github.com/nandaeka02/the-explorers/assets/111878995/5db18324-ed1b-4415-9c6c-c35d34355500)
 
 - Recall Curve:
-![R_curve (1)](https://github.com/nandaeka02/the-explorers/assets/111878995/ee08fe75-e424-421c-9353-10b1e29ad8fa)
+![R_curve (1)](https://github.com/nandaeka02/the-explorers/assets/111878995/c5259d71-4fda-472b-b2c0-01532f015825)
 
 - PR Curve:
-![PR_curve (1)](https://github.com/nandaeka02/the-explorers/assets/111878995/2940c5f2-53ba-4dfa-969a-7b7d564414cf)
+![PR_curve (1)](https://github.com/nandaeka02/the-explorers/assets/111878995/2558796e-ff18-4dae-9285-a0ec1d6f52b9)
 
 - F1 Curve:
-![F1_curve (1)](https://github.com/nandaeka02/the-explorers/assets/111878995/f9b43e62-f54d-4556-8d99-08d3275235d8)
+![F1_curve (1)](https://github.com/nandaeka02/the-explorers/assets/111878995/7fb777f4-8a30-45fb-8e4b-b80361cee521)
 
 Train & Val Loss:
-![results](https://github.com/nandaeka02/the-explorers/assets/111878995/ebb3904b-4a4a-4fc2-bc1a-e459875f8148)
- 
+![results](https://github.com/nandaeka02/the-explorers/assets/111878995/f6d803b6-8093-4070-a147-fa0bdccd9e1f)
+
 ### Testing
+1. Pisau:
+![WhatsApp Image 2023-12-04 at 13 11 55](https://github.com/nandaeka02/the-explorers/assets/111878995/57bd7e4a-d3e7-4e95-afe1-e92fd7a9d87f)
+
+2. Pistol:
+![datates2](https://github.com/nandaeka02/the-explorers/assets/111878995/cc4508a4-5d68-4588-9389-456cd4eb073e)
+
+3. Palu:
+![WhatsApp Image 2023-12-04 at 13 12 07](https://github.com/nandaeka02/the-explorers/assets/111878995/868a5e19-d6e2-41d6-b623-ec13457d278d)
+
+4. Gunting:
+![WhatsApp Image 2023-12-04 at 13 12 19](https://github.com/nandaeka02/the-explorers/assets/111878995/a0296dcc-8803-4ad6-beed-5c9caa99d7ee)
+
+5. Linggis:
+![WhatsApp Image 2023-12-04 at 13 12 10](https://github.com/nandaeka02/the-explorers/assets/111878995/dfe45ea0-f8c3-4f63-8154-dd83da384d97)
+
+6. Kapak:
+![WhatsApp Image 2023-12-04 at 13 12 03](https://github.com/nandaeka02/the-explorers/assets/111878995/1b7f2105-2b5a-4e7f-8dc4-dc216564dfb8)
+
+7. Mix Pistol x Pisau:
+![Detect Mix 1](https://github.com/nandaeka02/the-explorers/assets/111878995/b4bea8d8-f370-41ab-92b9-6d06f1772363)
+
+8. Mix Pistol x Kapak:
+![Detect Mix 2](https://github.com/nandaeka02/the-explorers/assets/111878995/6eb15855-d076-436c-b518-8eaf00e71e2c)
+
+9. Mix Gunting x Linggis:
+![Detect Mix 3](https://github.com/nandaeka02/the-explorers/assets/111878995/c64c7e26-a313-461f-aa74-d4798b1bd2d8)
+
+10. Mix Kapak x Palu:
+![Detect Mix 4](https://github.com/nandaeka02/the-explorers/assets/111878995/fb0bcb10-a489-49dd-b22a-4be88dcf2874)
+
 - Link: https://drive.google.com/drive/folders/1yeLHSicb5bEEm1r6uWRfUQXl_Zr09Bdq?usp=drive_link
 
 ## Supporting Documents
