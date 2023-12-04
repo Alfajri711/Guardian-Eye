@@ -158,33 +158,43 @@ Train & Val Loss:
 
 ### Testing
 1. Pisau:
+   
 ![WhatsApp Image 2023-12-04 at 13 11 55](https://github.com/nandaeka02/the-explorers/assets/111878995/57bd7e4a-d3e7-4e95-afe1-e92fd7a9d87f)
 
 2. Pistol:
+
 ![datates2](https://github.com/nandaeka02/the-explorers/assets/111878995/cc4508a4-5d68-4588-9389-456cd4eb073e)
 
 3. Palu:
+
 ![WhatsApp Image 2023-12-04 at 13 12 07](https://github.com/nandaeka02/the-explorers/assets/111878995/868a5e19-d6e2-41d6-b623-ec13457d278d)
 
 4. Gunting:
+
 ![WhatsApp Image 2023-12-04 at 13 12 19](https://github.com/nandaeka02/the-explorers/assets/111878995/a0296dcc-8803-4ad6-beed-5c9caa99d7ee)
 
 5. Linggis:
+
 ![WhatsApp Image 2023-12-04 at 13 12 10](https://github.com/nandaeka02/the-explorers/assets/111878995/dfe45ea0-f8c3-4f63-8154-dd83da384d97)
 
 6. Kapak:
+
 ![WhatsApp Image 2023-12-04 at 13 12 03](https://github.com/nandaeka02/the-explorers/assets/111878995/1b7f2105-2b5a-4e7f-8dc4-dc216564dfb8)
 
 7. Mix Pistol x Pisau:
+
 ![Detect Mix 1](https://github.com/nandaeka02/the-explorers/assets/111878995/b4bea8d8-f370-41ab-92b9-6d06f1772363)
 
 8. Mix Pistol x Kapak:
+
 ![Detect Mix 2](https://github.com/nandaeka02/the-explorers/assets/111878995/6eb15855-d076-436c-b518-8eaf00e71e2c)
 
 9. Mix Gunting x Linggis:
+
 ![Detect Mix 3](https://github.com/nandaeka02/the-explorers/assets/111878995/c64c7e26-a313-461f-aa74-d4798b1bd2d8)
 
 10. Mix Kapak x Palu:
+
 ![Detect Mix 4](https://github.com/nandaeka02/the-explorers/assets/111878995/fb0bcb10-a489-49dd-b22a-4be88dcf2874)
 
 - Link: https://drive.google.com/drive/folders/1yeLHSicb5bEEm1r6uWRfUQXl_Zr09Bdq?usp=drive_link
