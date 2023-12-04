@@ -112,11 +112,9 @@ We conducted classification to determine the types of objects our project can de
 Describe all results found in your final project experiments, including hyperparameters tuning and architecture modification performances. Put it into table format. Please show pictures (of model accuracy, loss, etc.) for more clarity.
 
 #### 1. Metrics
-| model | epoch | learning_rate | batch_size | optimizer | val_loss | val_precision | val_recall | ... |
+| model | epoch | learning_rate | batch_size | optimizer | val_precision | val_recall | val_mAP50 | val_mAP50-95 |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| YOLOv8 | 100 | 0.0003 | 16 | Adam | 0.093 | 88.34% | 84.15% | ... |
-| YOLOv8 | 100 | 0.0003 | 16 | Adam | 0.041 | 90.19% | 87.55% | ... |
-| ... | ... | ... | ... | ... | ... | ... | ... | ... | 
+| YOLOv8 | 100 | 0.0003 | 16 | Adam | 0.093 | 93.2% | 91.8% | 94.5% | 76% |
 
 ![confusion_matrix (2)](https://github.com/nandaeka02/the-explorers/assets/111878995/cb7c6b95-6187-429c-a89f-79f5c2734042)
 
@@ -174,5 +172,5 @@ If you find this project useful, we'd grateful if you cite this repository:
 For academic and non-commercial use only.
 
 ## Acknowledgement
-This project entitled <b>"YOUR PROJECT TITLE HERE"</b> is supported and funded by Startup Campus Indonesia and Indonesian Ministry of Education and Culture through the "**Kampus Merdeka: Magang dan Studi Independen Bersertifikasi (MSIB)**" program.
+This project entitled <b>"Guardian Eyes: Automatic Detection of Dangerous Objects in Public Spaces"</b> is supported and funded by Startup Campus Indonesia and Indonesian Ministry of Education and Culture through the "**Kampus Merdeka: Magang dan Studi Independen Bersertifikasi (MSIB)**" program.
 
