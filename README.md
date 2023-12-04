@@ -151,7 +151,7 @@ Show some implementations (demos) of this model. Show **at least 10 images** of 
 - Link: https://...
 
 ### Business Model Canvas
-Provide a screenshot of your Business Model Canvas (BMC). Give some explanations, if necessary.
+<img width="308" alt="SSBMC" src="https://github.com/nandaeka02/the-explorers/assets/111878995/36b3ab80-36f3-497e-9d76-1b2c2e5f4af3">
 
 ### Short Video
 <video width="320" height="240" controls>
