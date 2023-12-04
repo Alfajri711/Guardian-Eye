@@ -114,7 +114,7 @@ Describe all results found in your final project experiments, including hyperpar
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | YOLOv8 | 100 | 0.0003 | 16 | Adam | 95.2% | 92.9% | 95.8% | 77% |
 | YOLOv8 | 150 | 0.0003 | 16 | Adam | 92.7% | 92% | 95.4% | 76.4% |
-| YOLOv8 | 200 | 0.0003 | 16 | Adam | 93.3% | 91.6% | 94.2% | 0.77% |
+| YOLOv8 | 200 | 0.0003 | 16 | Adam | 93.3% | 91.6% | 94.2% | 77% |
 | YOLOv8 | 250 | 0.0003 | 16 | Adam | ... | ... | ... | ... |
 | YOLOv8 | 300 (Stop at 249) | 0.0003 | 16 | Adam | 94.7% | 92.8% | 95.2% | 77.7% |
 | YOLOv8 | 100 | 0.001 | 16 | Adam | ... | ... | ... | ... |
@@ -212,6 +212,8 @@ Train & Val Loss:
 
 ## Supporting Documents
 ### Presentation Deck
+![PPT](https://github.com/nandaeka02/the-explorers/assets/111878995/47c36528-1fc1-4c87-8ee6-aa0f19c4aa54)
+
 - Link: https://drive.google.com/drive/folders/1BrpHt4gspyVullIAzbdHZwiV_Jzyrjws?usp=drive_link
 
 ### Business Model Canvas
