@@ -105,28 +105,17 @@ We conducted classification to determine the types of objects our project can de
 | ![Pistol](/assets/pistol.jpg "Pistol") | ![Knife](/assets/pisau.jpg "Knife") | ![Axe](/assets/axe.jpg "Axe") | ![Hammer](/assets/hammer.jpg "Hammer") | ![Crowbar](/assets/crowbar1%201.png "Crowbar") | ![Scissor](/assets/scissor.jpg "Scissor") |
 | --- | --- | --- | --- | --- | --- |
 
-- Link: https://...
+- Link: https://drive.google.com/drive/folders/1eiRJh5qtRo5ASq4rr0PsrtP_tNlHK_Lh?usp=sharing
 
 ## Results
 ### Model Performance
 Describe all results found in your final project experiments, including hyperparameters tuning and architecture modification performances. Put it into table format. Please show pictures (of model accuracy, loss, etc.) for more clarity.
 
 #### 1. Metrics
-Inform your model validation performances, as follows:
-- For classification tasks, use **Precision and Recall**.
-- For object detection tasks, use **Precision and Recall**. Additionaly, you may also use **Intersection over Union (IoU)**.
-- For image retrieval tasks, use **Precision and Recall**.
-- For optical character recognition (OCR) tasks, use **Word Error Rate (WER) and Character Error Rate (CER)**.
-- For adversarial-based generative tasks, use **Peak Signal-to-Noise Ratio (PNSR)**. Additionally, for specific GAN tasks,
-  - For single-image super resolution (SISR) tasks, use **Structural Similarity Index Measure (SSIM)**.
-  - For conditional image-to-image translation tasks (e.g., Pix2Pix), use **Inception Score**.
-
-Feel free to adjust the columns in the table below.
-
 | model | epoch | learning_rate | batch_size | optimizer | val_loss | val_precision | val_recall | ... |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| vit_b_16 | 1000 |  0.0001 | 32 | Adam | 0.093 | 88.34% | 84.15% | ... |
-| vit_l_32 | 2500 | 0.00001 | 128 | SGD | 0.041 | 90.19% | 87.55% | ... |
+| YOLOv8 | 100 | 0.0003 | 16 | Adam | 0.093 | 88.34% | 84.15% | ... |
+| YOLOv8 | 100 | 0.0003 | 16 | Adam | 0.041 | 90.19% | 87.55% | ... |
 | ... | ... | ... | ... | ... | ... | ... | ... | ... | 
 
 ![confusion_matrix (2)](https://github.com/nandaeka02/the-explorers/assets/111878995/cb7c6b95-6187-429c-a89f-79f5c2734042)
@@ -144,15 +133,16 @@ Any improvements or modifications of your base model, should be summarized in th
 Insert an image regarding your training and evaluation performances (especially their losses). The aim is to assess whether your model is fit, overfit, or underfit.
  
 ### Testing
-Show some implementations (demos) of this model. Show **at least 10 images** of how your model performs on the testing data.
+- Link: https://drive.google.com/drive/folders/1yeLHSicb5bEEm1r6uWRfUQXl_Zr09Bdq?usp=drive_link
 
 ## Supporting Documents
 ### Presentation Deck
-- Link: https://...
+- Link: https://drive.google.com/drive/folders/1BrpHt4gspyVullIAzbdHZwiV_Jzyrjws?usp=drive_link
 
 ### Business Model Canvas
 <img width="960" alt="SSBMC1" src="https://github.com/nandaeka02/the-explorers/assets/111878995/60be4c48-9cf2-40b0-b293-6eb1d4e95c28">
 <img width="960" alt="SSBMC2" src="https://github.com/nandaeka02/the-explorers/assets/111878995/63407f9c-c9c1-4f43-928a-cd9497e95a23">
+- Link: https://docs.google.com/document/d/1ObH4PCTKWE6KUfARezBSU31ebE5hh975/edit?usp=sharing&ouid=108973949485557616792&rtpof=true&sd=true
 
 ### Short Video
 <video width="320" height="240" controls>
@@ -162,7 +152,7 @@ https://drive.google.com/drive/folders/12_8-MZmSEBr9rrZo6Y5iMK59ajVhZpej?usp=dri
 
 ## References
 Provide all links that support this final project, i.e., papers, GitHub repositories, websites, etc.
-- Link: https://...
+- Link: https://github.com/ultralytics/ultralytics
 - Link: https://...
 - Link: https://...
 
