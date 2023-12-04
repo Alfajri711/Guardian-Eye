@@ -151,8 +151,9 @@ Show some implementations (demos) of this model. Show **at least 10 images** of 
 - Link: https://...
 
 ### Business Model Canvas
-<img width="688" alt="SSBMC1" src="https://github.com/nandaeka02/the-explorers/assets/111878995/fa473a3a-32f7-465a-a3d8-6fa8049b4cb6">
-<img width="689" alt="SSBMC2" src="https://github.com/nandaeka02/the-explorers/assets/111878995/92e28301-4256-42d4-8b7c-bbf94896eddf">
+<img width="960" alt="SSBMC1" src="https://github.com/nandaeka02/the-explorers/assets/111878995/60be4c48-9cf2-40b0-b293-6eb1d4e95c28">
+<img width="960" alt="SSBMC2" src="https://github.com/nandaeka02/the-explorers/assets/111878995/63407f9c-c9c1-4f43-928a-cd9497e95a23">
+
 
 ### Short Video
 <video width="320" height="240" controls>
