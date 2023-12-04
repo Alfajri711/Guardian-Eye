@@ -222,9 +222,8 @@ Train & Val Loss:
 - Link: https://docs.google.com/document/d/1ObH4PCTKWE6KUfARezBSU31ebE5hh975/edit?usp=sharing&ouid=108973949485557616792&rtpof=true&sd=true
 
 ### Short Video
-<video width="320" height="240" controls>
-  <source src="assets/VideoTheExplorers.mp4" type="video/mp4">
-</video>
+![VID](https://github.com/nandaeka02/the-explorers/assets/111878995/6cc1a01c-9a72-4dd5-a74c-34007ee47670)
+
 https://drive.google.com/drive/folders/12_8-MZmSEBr9rrZo6Y5iMK59ajVhZpej?usp=drive_link
 
 ## References
