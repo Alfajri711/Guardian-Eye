@@ -122,9 +122,8 @@ Any improvements or modifications of your base model, should be summarized in th
 
 | model | modification | layer | before_mod | after_mod | precision | recall | mAP50 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| YOLOv8 | Backbone | ... | ... | ... | ... | ... | ... | 
-| YOLOv8 | Head | ... | ... | ... | ... | ... | ... | 
-| ... | ... | ... | ... | ... | ... | ... | ... | 
+| YOLOv8 | Backbone | ... | ... | ... | ... | ... | ... |
+| YOLOv8 | Head | ... | ... | ... | ... | ... | ... |
 
 #### 3. Training/Validation Curve
 Train Curve:
