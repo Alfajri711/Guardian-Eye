@@ -1,4 +1,4 @@
-![confusion_matrix](https://github.com/nandaeka02/the-explorers/assets/111878995/0a85889a-3003-4c83-8172-68c5390030d5)## Project Description
+## Project Description
 <b>Guardian Eyes: Automatic Detection of Dangerous Objects in Public Spaces</b> is a project created by <b>The Explorers</b> team as part of our final assignment for our independent study at Startup Campus. This project was inspired by the increasing incidents of crimes involving sharp weapons and even firearms. Consequently, we conceived the idea of developing an object detection system to identify and alert authorities about such hazardous objects.
 
 ## Contributor
