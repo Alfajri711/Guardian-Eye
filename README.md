@@ -112,7 +112,7 @@ Describe all results found in your final project experiments, including hyperpar
 #### 1. Metrics
 | model | epoch | learning_rate | batch_size | optimizer | val_precision | val_recall | val_mAP50 | val_mAP50-95 |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| YOLOv8 | 100 | 0.0003 | 16 | Adam | 0.093 | 95.2% | 92.9% | 95.8% | 77% |
+| YOLOv8 | 100 | 0.0003 | 16 | Adam | 95.2% | 92.9% | 95.8% | 77% |
 
 Confusion Matrix:
 ![confusion_matrix](https://github.com/nandaeka02/the-explorers/assets/111878995/5c08ade4-edb1-47fe-b53e-ff45b06fb71e)
