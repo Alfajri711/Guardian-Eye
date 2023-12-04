@@ -110,32 +110,53 @@ We conducted classification to determine the types of objects our project can de
 Describe all results found in your final project experiments, including hyperparameters tuning and architecture modification performances. Put it into table format. Please show pictures (of model accuracy, loss, etc.) for more clarity.
 
 #### 1. Metrics
-| model | epoch | learning_rate | batch_size | optimizer | val_precision | val_recall | val_mAP50 | val_mAP50-95 |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| YOLOv8 | 100 | 0.0003 | 16 | Adam | 95.2% | 92.9% | 95.8% | 77% |
-| YOLOv8 | 150 | 0.0003 | 16 | Adam | 92.7% | 92% | 95.4% | 76.4% |
-| YOLOv8 | 200 | 0.0003 | 16 | Adam | 93.3% | 91.6% | 94.2% | 77% |
-| YOLOv8 | 250 | 0.0003 | 16 | Adam | ... | ... | ... | ... |
-| YOLOv8 | 300 (Stop at 249) | 0.0003 | 16 | Adam | 94.7% | 92.8% | 95.2% | 77.7% |
-| YOLOv8 | 100 | 0.001 | 16 | Adam | ... | ... | ... | ... |
-| YOLOv8 | 150 | 0.001 | 16 | Adam | ... | ... | ... | ... |
-| YOLOv8 | 200 | 0.001 | 16 | Adam | ... | ... | ... | ... |
-| YOLOv8 | 250 | 0.001 | 16 | Adam | ... | ... | ... | ... |
-| YOLOv8 | 300 | 0.001 | 16 | Adam | ... | ... | ... | ... |
+This fine-tuning uses the selected modification architecture.
+| model | epoch | learning_rate | learning_rate_factor | batch_size | optimizer | val_precision | val_recall | val_mAP50 | val_mAP50-95 |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| YOLOv8 | 100 | 0.0003 | 0.0028 | 16 | Adam | 95.2% | 92.9% | 95.8% | 77% |
+| YOLOv8 | 100 | 0.001 | 0.0028 | 16 | Adam | 92.6% | 91.5% | 93.8% | 75.9% | Tuning 1
+| YOLOv8 | 100 | 0.0003 | 0.0029 | 16 | Adam | 92.1% | 91.4% | 94.9% | 76.8% | Tuning 3
+| YOLOv8 | 100 | 0.001 | 0.0029 | 16 | Adam | 91.7% | 92.9% | 94& | 75.1% | Tuning 4
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| YOLOv8 | 150 | 0.0003 | 0.0028 | 16 | Adam | 92.7% | 92% | 95.4% | 76.4% |
+| YOLOv8 | 150 | 0.001 | 0.0028 | 16 | Adam | 92% | 88.8% | 94.3% | 75.1% | Tuning 2
+| YOLOv8 | 150 | 0.0003 | 0.0029 | 16 | Adam | 93.1% | 92.3% | 94.9% | 73.1% | Tuning 5
+| YOLOv8 | 150 | 0.001 | 0.0029 | 16 | Adam | ... | ... | ... | ... | Tuning 6
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| YOLOv8 | 200 | 0.0003 | 0.0028 | 16 | Adam | 93.3% | 91.6% | 94.2% | 77% |
+| YOLOv8 | 200 | 0.001 | 0.0028 | 16 | Adam | ... | ... | ... | ... | Tuning 7
+| YOLOv8 | 200 | 0.0003 | 0.0029 | 16 | Adam | ... | ... | ... | ... | Tuning 8
+| YOLOv8 | 200 | 0.001 | 0.0029 | 16 | Adam | ... | ... | ... | ... |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| YOLOv8 | 250 | 0.0003 | 0.0028 | 16 | Adam | 95.4% | 91.3% | 95% | 76.9% |
+| YOLOv8 | 250 | 0.001 | 0.0028 | 16 | Adam | ... | ... | ... | ... |
+| YOLOv8 | 250 | 0.0003 | 0.0029 | 16 | Adam | ... | ... | ... | ... |
+| YOLOv8 | 250 | 0.001 | 0.0029 | 16 | Adam | ... | ... | ... | ... |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| YOLOv8 | 300 (Stop at 249) | 0.0003 | 0.0028 | 16 | Adam | 94.7% | 92.8% | 95.2% | 77.7% |
+| YOLOv8 | 300 | 0.001 | 0.0028 | 16 | Adam | ... | ... | ... | ... |
+| YOLOv8 | 300 | 0.0003 | 0.0029 | 16 | Adam | ... | ... | ... | ... |
+| YOLOv8 | 300 | 0.001 | 0.0029 | 16 | Adam | ... | ... | ... | ... |
 
-Confusion Matrix:
+The best hyperparameters that fit the modified architecture are:
+| model | epoch | learning_rate | learning_rate_factor | batch_size | optimizer | val_precision | val_recall | val_mAP50 | val_mAP50-95 |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| YOLOv8 | 100 | 0.0003 | 0.0028 | 16 | Adam | 95.2% | 92.9% | 95.8% | 77% |
+
+Confusion Matrix Hasil Terbaik:
 ![confusion_matrix](https://github.com/nandaeka02/the-explorers/assets/111878995/5c08ade4-edb1-47fe-b53e-ff45b06fb71e)
 
 #### 2. Ablation Study
-Backbone Improvement:
+With hyperparameter tuning and the same dataset
+Backbone Improvement, without head improvement:
 | model | modification | layer | before_mod | after_mod | precision | recall | mAP50 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| YOLOv8 | Backbone | ... | ... | ... | ... | ... | ... |
+| YOLOv8 | Backbone | 0-P1/2 | Conv, [64, 3, 2]] | Conv, [512, 7, 2]] | 90.9% | 90.7% | 93.7% |
 
-Head Improvement:
+Head Improvement, without backbone improvement **(selected modification)**:
 | model | modification | layer | before_mod | after_mod | precision | recall | mAP50 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| YOLOv8 | Head | ... | ... | ... | ... | ... | ... |
+| YOLOv8 | Head | 12 | [-1, 3, C2f, [512]] | [-1, 5, C2f, [512]] | 95.2% | 92.9% | 95.8% |
 
 #### 3. Training/Validation Curve
 Train Curve:
