@@ -120,11 +120,11 @@ Confusion Matrix:
 #### 2. Ablation Study
 Any improvements or modifications of your base model, should be summarized in this table. Feel free to adjust the columns in the table below.
 
-| model | modification | layer |before_mod | after_mod | precision | recall | mAP50 |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| YOLOv8 | Backbone | ... | ... | ... | ... | ... | ... | ... |
-| YOLOv8 | Head | ... | ... | ... | ... | ... | ... | ... |
-| ... | ... | ... | ... | ... | ... | ... | ... | ... |
+| model | modification | layer | before_mod | after_mod | precision | recall | mAP50 |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| YOLOv8 | Backbone | ... | ... | ... | ... | ... | ... | 
+| YOLOv8 | Head | ... | ... | ... | ... | ... | ... | 
+| ... | ... | ... | ... | ... | ... | ... | ... | 
 
 #### 3. Training/Validation Curve
 Train Curve:
