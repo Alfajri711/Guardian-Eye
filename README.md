@@ -125,6 +125,7 @@ Backbone Improvement:
 
 Head Improvement:
 | model | modification | layer | before_mod | after_mod | precision | recall | mAP50 |
+| --- | --- | --- | --- | --- | --- | --- | --- |
 | YOLOv8 | Head | ... | ... | ... | ... | ... | ... |
 
 #### 3. Training/Validation Curve
