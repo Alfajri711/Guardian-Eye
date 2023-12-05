@@ -129,14 +129,14 @@ This fine-tuning uses the selected modification architecture.
 | YOLOv8 | 200 | 0.001 | 0.0029 | 16 | Adam | 94.3% | 91.2% | 94.7% | 77.3% |Tuning 9
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | YOLOv8 | 250 | 0.0003 | 0.0028 | 16 | Adam | 95.4% | 91.3% | 95% | 76.9% |
-| YOLOv8 | 250 | 0.001 | 0.0028 | 16 | Adam | ... | ... | ... | ... | Tuning 10
-| YOLOv8 | 250 | 0.0003 | 0.0029 | 16 | Adam | ... | ... | ... | ... | Tuning 11
+| YOLOv8 | 250 | 0.001 | 0.0028 | 16 | Adam | 91.9% | 93.4% | 94.8% | 76.3% | Tuning 10
+| YOLOv8 | 250 | 0.0003 | 0.0029 | 16 | Adam | 93% | 92.4% | 94.5% | 76.7% | Tuning 11
 | YOLOv8 | 250 | 0.001 | 0.0029 | 16 | Adam | ... | ... | ... | ... | Tuning 12
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | YOLOv8 | 300 (Stop at 249) | 0.0003 | 0.0028 | 16 | Adam | 94.7% | 92.8% | 95.2% | 77.7% |
-| YOLOv8 | 300 | 0.001 | 0.0028 | 16 | Adam | ... | ... | ... | ... |
-| YOLOv8 | 300 | 0.0003 | 0.0029 | 16 | Adam | ... | ... | ... | ... |
-| YOLOv8 | 300 | 0.001 | 0.0029 | 16 | Adam | ... | ... | ... | ... |
+| YOLOv8 | 300 | 0.001 | 0.0028 | 16 | Adam | ... | ... | ... | ... | Tuning 13
+| YOLOv8 | 300 | 0.0003 | 0.0029 | 16 | Adam | ... | ... | ... | ... | Tuning 14
+| YOLOv8 | 300 | 0.001 | 0.0029 | 16 | Adam | ... | ... | ... | ... | Tuning 15
 
 The best hyperparameters that fit the modified architecture are:
 | model | epoch | learning_rate | learning_rate_factor | batch_size | optimizer | val_precision | val_recall | val_mAP50 | val_mAP50-95 |
