@@ -158,6 +158,11 @@ Head Improvement, without backbone improvement **(selected modification)**:
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | YOLOv8 | Head | 12 | [-1, 3, C2f, [512]] | [-1, 5, C2f, [512]] | 95.2% | 92.9% | 95.8% |
 
+Merging of backbone and head modification:
+| model | modification | layer | precision | recall | mAP50 |
+| --- | --- | --- | --- | --- | --- |
+| YOLOv8 | Best Backbone and Best Head | 0 & 12 | ... | ... | ... |
+
 #### 3. Training/Validation Curve
 Train Curve:
 - Precision Curve:
