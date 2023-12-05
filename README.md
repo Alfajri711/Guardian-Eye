@@ -135,7 +135,7 @@ This fine-tuning uses the selected modification architecture.
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | YOLOv8 | 300 (Stop at 249) | 0.0003 | 0.0028 | 16 | Adam | 94.7% | 92.8% | 95.2% | 77.7% |
 | YOLOv8 | 300 | 0.001 | 0.0028 | 16 | Adam | ... | ... | ... | ... | Tuning 13
-| YOLOv8 | 300 | 0.0003 | 0.0029 | 16 | Adam | ... | ... | ... | ... | Tuning 14
+| YOLOv8 | 300 | 0.0003 | 0.0029 | 16 | Adam | 93.2% | 93.1% | 94.7% | 77.7% | Tuning 14
 | YOLOv8 | 300 | 0.001 | 0.0029 | 16 | Adam | ... | ... | ... | ... | Tuning 15
 
 The best hyperparameters that fit the modified architecture are:
